@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('ciao');
+
+    $titolo="Prima pagina con laravel";
+
+    $testo="hello world ,quanto è comodo laravel";
+
+
+    // Create array containing variables and their values . Definizione di compact
+    return view('ciao',compact('titolo','testo') );
 });

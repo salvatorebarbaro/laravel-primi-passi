@@ -9,9 +9,9 @@
 <body>
 
 
-<h1 style="text-align: center">Prima pagina con laravel</h1>
+<h1 style="text-align: center">{{$titolo}}</h1>
 
-<p style="text-align:center;">hello world</p>
+<p style="text-align:center;">{{$testo}}</p>
     
 </body>
 </html>
